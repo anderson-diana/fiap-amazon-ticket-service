@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fiap.amazon.fiapamazonticketservice.domain.model.Ticket;
-import com.fiap.amazon.fiapamazonticketservice.service.TicketService;;
+import com.fiap.amazon.fiapamazonticketservice.service.TicketService;
 
 @RestController
 @RequestMapping(path = "/ticket", produces = { MediaType.APPLICATION_JSON_VALUE })

@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: fiap-amazon-ticket-service
+  cloud:
+    config:
+      uri: http://localhost:8888

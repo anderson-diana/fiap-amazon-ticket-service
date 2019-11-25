@@ -28,14 +28,14 @@ public class Ticket {
 
 	@NotNull
 	@Column(name = "NOME")
-	private String NOME;
-	
+	private String nome;
+
 	@NotNull
 	@Column(name = "EMAIL")
-	private String EMAIL;
-	
+	private String email;
+
 	@NotNull
 	@Column(name = "DESCRICAO")
-	private String DESCRICAO;
+	private String descricao;
 
 }
